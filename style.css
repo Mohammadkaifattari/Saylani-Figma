@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -93,7 +93,7 @@ h1 {position: relative;
     
     
 }
-button{ width: 425px;
+.button{ width: 425px;
     height: 55px;
     border: 1px solid #4671C6A6;
     background-color: #4671C6A6;
@@ -104,7 +104,7 @@ button{ width: 425px;
     
 
 }
-button:hover{border: 5px solid #028efa;}
+.button:hover{border: 2px solid #028efa;}
 .or{
     color: rgb(139, 139, 139);
     font-size: 35px;
@@ -128,8 +128,10 @@ font-size: 25px;
     align-items: center;
     justify-content: center;
     gap: 12px;
+    text-decoration: none;
+    text-underline-position: unset;
 }
-.btn:hover{border: 5px solid #028efa;
+.btn:hover{border: 2px solid #028efa;
 
 }
 .pp{
@@ -166,6 +168,7 @@ font-size: 25px;
 
 
 }
+
 
 @media(max-width:360px)
 {
@@ -216,13 +219,13 @@ h1{position: relative;
     text-decoration-line: none;
     
 }
-button{position: absolute;
+.button{position: absolute;
     bottom:330px;
    width: 270px;
     height: 35px;
     font-size: 25px;
 }
-button:hover{
+.button:hover{
     border: 3px solid #028efa ;
 }
 .or{position: relative;
@@ -268,4 +271,26 @@ br{
 
 
     
+}
+ @media(max-width:320px){
+.fly{  top: 177px;
+    left: 30px;
+
+}
+.fly2{
+    top: 224px;
+    left: 30px;
+
+}
+.fly3{ top: 224px;
+    right: 30px;
+}
+.pass{
+    font-size: 15px;
+    
+}
+.button{
+    bottom: 320px;
+}
+
 }
